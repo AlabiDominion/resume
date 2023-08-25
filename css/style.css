@@ -1,0 +1,66 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --color-primary: #ffffff;
+    --color-secoondary: #96bb7c;
+    --color-font-body: #8e908e;
+    --color-link: #efefef;
+    --font-family:"Nunito", sans-serif;
+    --font-size-body: 1.7rem;
+    --font-nav-size:1.5rem
+    
+}
+.mainHeader{
+    background: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80rem;
+    
+}
+.header{
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 5rem;
+    left: 10%;
+    top: 10px;
+}
+.header img{
+    width: 4rem;
+    height: 4rem;
+}
+.header nav{
+    align-self: center;
+}
+.header nav a{
+    text-decoration: none;
+    margin-right: 4rem;
+    color: var(--color-primary);
+    font-size: 2rem;
+}
+.banner{
+    width: 80%;
+    height: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 4rem;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+}
