@@ -21,7 +21,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 80rem;
+    height: 100vh;
     
 }
 .header{
@@ -38,14 +38,25 @@ html{
     width: 4rem;
     height: 4rem;
 }
+.burger{
+    display: none;
+}
+.closeMenu{
+    display: none;
+}
 .header nav{
     align-self: center;
+    display: flex;
+}
+.header nav a:hover{
+    color: rgb(41, 41, 180);
 }
 .header nav a{
     text-decoration: none;
     margin-right: 4rem;
-    color: black;
+    color: white;
     font-size: 2rem;
+    cursor: pointer;
 }
 .banner{
     width: 80%;
@@ -119,3 +130,166 @@ html{
 #button2{
     background-color: grey;
 }
+
+
+/* services */
+.section2{
+    margin: 0 auto;
+    width: 80%;
+    padding: 10rem 0;
+}
+.section2 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.sect2minicard{
+    padding: 5rem 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.sect2card{
+    width: 30%;
+    padding: 3rem;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sect2card img{
+    width: 50px;
+    height: 50px;
+    margin: 1rem 0;
+}
+.sect2card h2{
+    font-size: 2rem;
+}
+.sect2card p{
+    font-size: 1.8rem;
+    color: rgb(144, 139, 139);
+    margin: 1rem 0;
+}
+@media screen and (min-width:501px) and (max-width:900px) {
+    .header nav {
+        height: 100vh;
+        position: fixed;
+        flex-direction: column;
+        align-items: baseline;
+        background-color: black;
+        left: 80%;
+        z-index: 10;
+        transition: right 1s ease;
+        display: none;
+    }
+    .mainMenu a{
+        display: inline-block;
+        padding: 15px;
+        text-transform: uppercase;
+        color: rgb(22, 22, 202); 
+    }
+    .closeMenu{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        color: rgb(22, 22, 202);
+        font-size: 4rem;
+    }
+    .burger{
+        display: block;
+    }
+    .banner h1{
+        width: 80%;
+    }
+    .sect1{
+        flex-direction: column;
+    }
+    .sect1{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sect1 video{
+        width: 100%;
+        height: 40rem;
+        
+        /* border-radius: 2rem; */
+    }
+    .subSect1{
+        width: 100%;
+    }
+    .sect2minicard{
+        flex-direction: column;
+    }
+    .sect2card{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    }
+    @media screen and (max-width:500px) {
+        .header nav {
+            height: 100vh;
+            position: fixed;
+            flex-direction: column;
+            align-items: baseline;
+            background-color: black;
+            left: 80%;
+            z-index: 10;
+            transition: right 1s ease;
+            display: none;
+        }
+        .mainMenu a{
+            display: inline-block;
+            padding: 15px;
+            text-transform: uppercase;
+            color: rgb(22, 22, 202); 
+        }
+        .closeMenu{
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 20px;
+            color: rgb(22, 22, 202);
+            font-size: 4rem;
+        }
+        .burger{
+            display: block;
+        }
+        .banner h1{
+            width: 80%;
+        }
+        .sect1{
+            flex-direction: column;
+        }
+        .sect1{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .sect1 video{
+            width: 100%;
+            height: 40rem;
+            
+            /* border-radius: 2rem; */
+        }
+        .subSect1{
+            width: 100%;
+        }
+        .sect2minicard{
+            flex-direction: column;
+        }
+        .sect2card{
+            width: 100%;
+            margin-bottom: 2rem;
+            height: 40rem;
+            overflow: scroll;
+        }
+    }
+        
+    

@@ -8,18 +8,22 @@
 </head>
 <body>
     <header class="mainHeader" id="home">
-        <div class="header">
+        <div class="header" id="header">
             <div> <a href="#">
                 <img src="images/dominion_logo.png" alt="Logo">
             </a></div>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="">About</a>
-                <a href="">Services</a>
-                <a href="">Blog</a>
-                <a href="">Resume</a>
-                <a href="">Contact</a>
+            <nav class="mainMenu">
+                <a id="a" href="#home">Home</a>
+                <a id="b" href="#about">About</a>
+                <a id="c" href="#services">Services</a>
+                <a id="d" href="">Blog</a>
+                <a id="e" href="">Resume</a>
+                <a id="f" href="">Contact</a>
+                <p class="closeMenu">x</p>
             </nav>
+            <div class="burger">
+                <img src="images/hamburger.jpg" alt="">
+            </div>
         </div>
         <div class="banner">
             <h1>I'm Alabi Dominion</h1>
@@ -27,7 +31,7 @@
         </div>
     </header>
     <main>
-        <section class="section1">
+        <section id="about" class="section1">
             <div class="sect1">
                 <video autoplay muted loop src="media/ads.mp4"></video>
                 <div class="subSect1">
@@ -49,7 +53,28 @@
                 </div>
             </div>
         </section>
-        <section></section>
+        <section id="services" class="section2">
+          <h1>Services</h1> 
+          <div class="sect2minicard">
+            <div class="sect2card">
+                <img src="images/laptop-icon.png" alt="icon1">
+                <h2>Development</h2>
+                <p>We are committed to constant evolution and improvement in our services. Our journey of development is guided by a relentless pursuit of excellence. We believe in staying ahead of the curve by embracing the latest industry trends, technology advancements, and customer feedback. Our dedicated team of experts works tirelessly to refine our services, ensuring they remain cutting-edge, efficient, and tailored to meet the ever-changing needs of our clients. Our commitment to development is not just a promise but a core value, driving us to consistently enhance the quality, reliability, and innovation of our offerings. As a result, we empower our clients with the best solutions, setting new standards of excellence in the industry."  
+                </p>
+              </div>   
+              <div class="sect2card">
+                <img src="images/binoculars-icon.jpg" alt="icon2">
+                <h2>Design</h2>
+                <p>We are dedicated to transforming your ideas and visions into stunning, tangible realities. Our design services are tailored to meet your unique needs and exceed your expectations. Whether you're looking for cutting-edge graphic design, innovative web design, or captivating interior design, our team of highly skilled and creative professionals is here to bring your concepts to life. With a keen eye for detail, a passion for aesthetics, and a commitment to excellence, we take pride in crafting visually captivating solutions that not only meet but surpass industry standards. Our collaborative approach ensures that every project is a true reflection of your brand's identity and objectives, resulting in designs that resonate with your target audience. Discover the power of exceptional design with Alabi's Design, where creativity knows no bounds."</p>
+              </div>   
+              <div class="sect2card">
+                <img src="images/ecomerce.jpeg" alt="icon3">
+                <h2>E-commerce</h2>
+                <p>We are committed to bringing you an unparalleled shopping experience right at your fingertips. With an extensive range of products spanning from fashion to electronics, home decor to health and wellness, we cater to every aspect of your lifestyle needs. Our user-friendly website and mobile app make browsing, selecting, and purchasing your favorite items a breeze. Enjoy the convenience of doorstep delivery, secure payment options, and a dedicated customer support team ready to assist you every step of the way. We believe in delivering not just products but also happiness and satisfaction to our valued customers. Join our growing community of satisfied shoppers and elevate your online shopping experience with us!"</p>
+              </div>   
+          </div>
+          
+        </section>
     </main>
     <footer>
         <div></div>
