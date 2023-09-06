@@ -193,11 +193,10 @@ html{
     }
     .closeMenu{
         display: block;
-        position: absolute;
-        top: 0;
-        right: 20px;
         color: rgb(22, 22, 202);
         font-size: 4rem;
+        padding: 0 5rem;
+        
     }
     .burger{
         display: block;
@@ -230,15 +229,16 @@ html{
         width: 100%;
         margin-bottom: 2rem;
     }
+
     }
     @media screen and (max-width:500px) {
         .header nav {
             height: 100vh;
             position: fixed;
             flex-direction: column;
-            align-items: baseline;
             background-color: black;
-            left: 80%;
+            left: 60%;
+
             z-index: 10;
             transition: right 1s ease;
             display: none;
@@ -251,9 +251,8 @@ html{
         }
         .closeMenu{
             display: block;
-            position: absolute;
-            top: 0;
-            right: 20px;
+            padding: 0 5rem;
+            
             color: rgb(22, 22, 202);
             font-size: 4rem;
         }

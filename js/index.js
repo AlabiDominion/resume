@@ -11,8 +11,8 @@ function hnav() {
     document.querySelector(`#header`).style.backgroundColor =`white`
     document.querySelector(`#header`).style.width =`100%`
     document.querySelector(`#header`).style.left =`0`
-    document.querySelector(`#header`).style.paddingLeft =`15rem`
-    document.querySelector(`#header`).style.paddingRight =`15rem`
+    document.querySelector(`#header`).style.paddingLeft =`10%`
+    document.querySelector(`#header`).style.paddingRight =`10%`
     document.querySelector(`#header`).style.paddingTop =`1rem`
     document.querySelector(`#header`).style.paddingButtom =`1rem`
     document.querySelector(`#header`).style.top =`0`
