@@ -32,3 +32,33 @@ function show() {
 function close() {
     mainMenu.style.top = `-100%`
 }
+document.addEventListener(`DOMContentLoaded`,function(){
+    document.querySelector(`#about`).onmouseover = home;
+});
+function home() {
+    document.querySelector(`#b`).style.color =`red`
+}
+document.addEventListener(`DOMContentLoaded`,function(){
+    document.querySelector(`#services`).onmouseover = services;
+});
+function services() {
+    document.querySelector(`#c`).style.color =`purple`
+}
+document.addEventListener(`DOMContentLoaded`,function(){
+    document.querySelector(`#Resume`).onmouseover = Resume;
+});
+function Resume() {
+    document.querySelector(`#e`).style.color =`green`
+}
+document.addEventListener(`DOMContentLoaded`,function(){
+    document.querySelector(`#Blog`).onmouseover = Blog;
+});
+function Blog() {
+    document.querySelector(`#d`).style.color =`yellow`
+}
+document.addEventListener(`DOMContentLoaded`,function(){
+    document.querySelector(`#contact`).onmouseover = contact;
+});
+function contact() {
+    document.querySelector(`#f`).style.color =`brown`
+}
