@@ -8,7 +8,7 @@ function hnav() {
     document.querySelector(`#d`).style.color =`blue`
     document.querySelector(`#e`).style.color =`blue`
     document.querySelector(`#f`).style.color =`blue`
-    document.querySelector(`#header`).style.backgroundColor =`white`
+    document.querySelector(`#header`).style.backgroundColor =`#1a1a1a`
     document.querySelector(`#header`).style.width =`100%`
     document.querySelector(`#header`).style.left =`0`
     document.querySelector(`#header`).style.paddingLeft =`10%`
